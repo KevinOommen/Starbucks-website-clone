@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #2BB57F;
+  --light-green: #D4E9E2;
+  --lightbrown: #EBDBC8;
+
+}
+
+body {
+
+  font-size: 15pt;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: 2px solid var(--primary-color);
+  border-radius: 25rem;
+  box-sizing: border-box;
+  width: fit-content;
+  margin: 0;
+  padding: 0.1rem 1.5rem;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 3% 0;
+}
+
+.block1 {
+
+  width: 50%;
+  order: 1;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.block2 {
+  width: 50%;
+  order: 2;
+}
+
+div.mediatext {
+  display: flex;
+  width: 48%;
+  flex-flow: row wrap;
+  background-color: var(--light-green);
+  padding-bottom: 5% ;
+ 
+}
+
+div.mediatext img {
+  width: 100%;
+  height: 50%;
+} 
+section:nth-child(1)
+{ height: 500px;
+  background-color: blue;
+}
+section:nth-child(3) {
+  background-color: var(--lightbrown);
+}
+
+section:nth-child(4) {
+ background-color: var(--lightbrown);
+}
+
+section:nth-child(5) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 2% 0;
+
+  background-color:white;
+}
+section:nth-child(6){
+  background-color: var(--light-green);
+}

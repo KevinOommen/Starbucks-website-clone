@@ -29,7 +29,7 @@ button {
 
 section {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   margin: 3% 0;
 }
 
